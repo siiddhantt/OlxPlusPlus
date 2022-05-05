@@ -1,0 +1,152 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:100,300,400,700);
+@import url(//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css);
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+* {
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  padding: 0;
+  box-sizing: border-box;
+}
+nav {
+  display: flex;
+  padding: 8px;
+  background-color: white;
+  font-size: 25px;
+  align-items: center;
+  font-weight: bolder;
+  justify-content: space-between;
+  box-shadow: rgba(0,0,0,0.09) 0px 2px 24px 0px;
+}
+a {
+  color: black;
+  text-decoration: none;
+}
+nav .logo {
+    margin: 0px 10px;
+    font-family: 'Pacifico', cursive;
+    font-weight: 300;
+}
+nav .logo a{
+    font-family: 'Pacifico', cursive;
+}
+nav a {
+    margin: 0px 10px;
+  font-family: "Roboto", sans-serif;
+}
+nav input{
+    padding: 2px 0px 4px 35px;
+    width: 100%;
+    border: 2px solid black;
+}
+nav .search svg{
+    position: absolute;
+    left: 7.5px;
+    top: 7.5px;
+    color: rgb(153, 145, 145);
+    
+}
+nav .search{
+    width: 20%;
+    position: relative;
+    left: 410px;
+    top:2.6px;
+    font-family:sans-serif ;
+    font-weight: normal;
+    font-size: medium;
+}
+
+nav .text-box{
+  border-radius: 15px;
+
+}
+
+.card img{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0,0,0,.125);
+  border-radius: .25rem;
+  object-fit: contain;
+}
+
+.card-body{object-fit: contain;
+  word-wrap: break-word;
+}
+
+.banner {
+  object-fit: cover;
+}
+.login {
+  padding: 100px;
+}
+.signup {
+  padding: 60px;
+}
+
+.login form, .signup form {
+  background: #222;
+  box-shadow: 0 0 1rem rgba(0,0,0,0.3);
+  min-height: 10rem;
+  margin: auto;
+  max-width: 50%;
+  padding: .5rem;
+  border-radius: 8px;
+}
+
+.email {
+  border-bottom: 2px solid rgba(white, .5);
+}
+.login-email, .login-password, .signup-email, .signup-name, .signup-password, .signup-address, .signup-phone {
+  background: transparent;
+  border: 0 solid;
+  border-bottom: double 1px ;
+  color: white;
+  display: block;
+  margin: 1rem;
+  padding: .5rem;
+  transition: 250ms background ease-in;
+  width: calc(100% - 3rem);
+  border-radius: 5px;
+}
+
+.login-email:focus , .login-password:focus{
+  background: white;
+  color: black;
+  transition: 250ms background ease-in;}
+
+.login-submit {
+    border: 2px solid white;
+    background: transparent;
+    color: white;
+    display: block;
+    margin: 1rem auto;
+    min-width: 1px;
+    padding: .25rem;
+    transition: 250ms background ease-in;
+    border-radius: 5px;
+}
+
+.login-submit:hover, :focus {
+  background: white;
+  color: black;
+  transition: 250ms background ease-in;
+}
+
